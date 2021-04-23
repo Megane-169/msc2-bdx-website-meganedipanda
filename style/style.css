@@ -1,0 +1,266 @@
+
+html {
+	width: -webkit-fill-available;
+	overflow-x: hidden;
+}
+body{
+	background-color: white;
+	color: white;
+	width: 100% !important;
+    margin: unset !important;
+}
+
+.menu-container {
+	width: 100%;
+	padding: 12px 0;
+    background-color: rgb(12 38 60 / 89%);
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 100
+}
+	
+
+.menu-left-block {
+	margin-left: 20px;
+	font-family: fantasy;
+	font-weight: bolder;
+	color: white;
+
+}
+
+.menu-right-block {
+	display: flex;
+	justify-content: flex-end;
+	font-family: ui-rounded;
+}
+.menu-item {
+	padding: 0 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-item:hover {}
+.banner-container {
+	width: 100%;
+	height: 700px;
+	background-image: url('../images/banner.jpg');
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.banner-title {
+	font-size: 80px;
+	font-weight: bolder;
+	text-align: center;
+	font-family: fangsong;
+	font-family: fantasy;
+    letter-spacing: 5px;
+}
+.banner-subtitle {
+	font-size: 26px;
+}
+.link-button {
+	padding: 10px 30px;
+	background-color: #d0186dab;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-top: 30px	
+}
+.link-button:hover {
+	background-color: rgb(12 38 60 / 89%);
+}
+.banner-container2 {
+	width: 100%;
+	height: 700px;
+	margin-top: 30px;
+	background-image: url('../images/your_sound.jpg');
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.description-block {
+	width: 460px;
+	padding: 30px 50px;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	background-color: rgb(0 0 0 / 28%) !important;
+	text-align: center;
+    border-radius: 10px;
+    font-family: serif;
+}
+.description-title {
+	margin-bottom: 20px;
+	font-weight: bolder;
+	font-size: 36px;
+	width: 100%;
+	text-align: center;
+}
+.description-text {
+	font-size: 20px;
+	font-weight:lighter;
+}
+.my-space-block {
+	width: 100%;
+}
+.space-head-block {
+	width: 100%;
+	padding: 70px 0;
+	text-align: center;
+	font-size: 30px;
+	background-color: white;
+	color: orange;
+}
+.cards-container {
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card {
+	position: relative;
+	width: 45%;
+	height: 300px;
+	background-size: 100% 100%;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+.card-1 {
+	background-image: url('../images/culture.jpg');
+	margin-right: 5px
+    text-align:justify;
+}
+.card-2 {
+	background-image: url('../images/peace.jpg');
+	margin-left: 5px
+}
+.card-3 {
+	background-image: url('../images/worship.jpg');
+	margin-right: 5px
+}
+.card-4 {
+	background-image: url('../images/everyday.jpg');
+	margin-left: 5px
+}
+.card-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.card-overlay:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+	box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2)
+}
+
+.card-text {
+	width: 100%;
+	height: 100%;
+	color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-decoration: none;
+}
+
+.card-text:hover {
+	color: white
+}
+
+.page-footer {
+	background-color: #666666;
+	padding: 20px 0 10px;
+	margin-top: 50px
+}
+
+.footer-top {
+	width: 100%;
+	display: flex;
+	margin-bottom: 15px;
+	margin-left: 30px
+}
+
+.footer-item {
+	padding: 0 10px;
+}
+
+.footer-bottom {
+	width: 100%;
+	margin-left: 30px
+}
+
+/* css for redirection pages starts here */
+
+.lifestyle-body, .culture-body, .peace-body, .worship-body {
+	width: 100%;
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 70px 0;
+	text-decoration: none;
+}
+
+.lifestyle-body {
+	background-image: url('../images/everyday.jpg');
+}
+
+.culture-body {
+	background-image: url('../images/culture.jpg');
+}
+
+.peace-body {
+	background-image: url('../images/peace.jpg');
+}
+
+.worship-body {
+	background-image: url('../images/worship.jpg');
+}
+
+.redirection-page-text {
+	width: 460px;
+	padding: 30px 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	border-radius: 10px
+}
+
+.the-title {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
